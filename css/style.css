@@ -20,6 +20,7 @@ footer{
     padding-right: 15%;
     height: 100%;
 }
+
 .header{
     height: 100%;
     display: flex;
@@ -40,29 +41,37 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 30px;
+    font-size: 22px;
 }
 .nav-links a{
     text-decoration: none;
     display: flex;
     align-items: center;
 }
+.main{
+    background-color: gray;
+}
 .home-section-main{
     height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 30px;
 }
 .text-main{
     display: flex;
+    width: 50%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 .img-main{
     display: flex; 
+    width: 50%;
 }
 .img-main img{
     width: 100%;
+    border-radius: 50%;
 }
 
 
@@ -80,10 +89,11 @@ footer{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.dev-footers{
+.dev-footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 25px;
 }
 .nav-footer{
     display: flex;
@@ -91,8 +101,12 @@ footer{
     justify-content: center;
     gap: 15px;
 }
+.links-footer{
+    text-decoration: none;
+    color: rgb(6, 80, 6);
+}
 .icon-footer{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 @media (max-width: 900px){
