@@ -49,7 +49,7 @@ footer{
     align-items: center;
 }
 .main{
-    background-color: gray;
+    background-color: salmon;
 }
 .home-section-main{
     height: 100%;
@@ -71,7 +71,8 @@ footer{
 }
 .img-main img{
     width: 100%;
-    border-radius: 50%;
+    border-radius: 30%;
+    transform: scaleX(-1);
 }
 
 
