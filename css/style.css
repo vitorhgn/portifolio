@@ -118,11 +118,36 @@ footer{
 .icon-footer{
     font-size: 30px;
 }
-
+@media (max-width: 400px){
+    .home-section-main{
+        flex-direction: column;
+    }
+    .text-header{
+        display: none;
+    }
+    .nav-links{
+        justify-content: space-around;
+        width: 100%;
+    }
+    .text-main{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .text-main p{
+        display: flex;
+        text-align: justify;
+    }
+    img{
+        display: ;
+    }
+}
 @media (max-width: 900px){
     .container{
         padding-left: 5%;
         padding-right: 5%;
+    }
+    *{
+        font-size: 100% !important;
     }
 }
 @keyframes text-header{
