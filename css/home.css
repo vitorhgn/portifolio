@@ -1,0 +1,27 @@
+#home { 
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+.home-section-main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.text-main{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.img-main{
+    display: flex; 
+    width: 50%;
+}
+.img-main img{
+    width: 100%;
+    border-radius: 30%;
+    transform: scaleX(-1);
+}
